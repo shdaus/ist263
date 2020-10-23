@@ -19,3 +19,6 @@ nav {margin-bottom: 30px}
 .img {
     max-width: 100%;
 }
+.part2  { flex-wrap: wrap;}
+@media only screen and  (min-width: 768px) nav{ max-width: 100% }
+
