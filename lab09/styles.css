@@ -16,3 +16,6 @@ nav {margin-bottom: 30px}
 .linkedin,.email {float: left; margin: 30px;}
 .iframe{flex: 1; margin: 30px; order:2; }
 .form{flex: 1; margin: 100px; order: 1;}
+.img {
+    max-width: 100%;
+}
