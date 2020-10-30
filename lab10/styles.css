@@ -1,0 +1,27 @@
+body{background-color: #B2BEF2; color: #405397}
+h1,h2,h3{color:#405397;}
+link{color: #697ACA}
+nav{background-color:#405397;}
+nav a {color: #FFFFFF;}
+nav a:hover {background-color: #697ACA; }
+nav{padding: 10px}
+nav {margin-bottom: 30px}
+.quote{float: right;}
+.img{float: left;  margin-right: 30px;}
+.clear{clear:both;}
+.list{overflow: hidden}
+.part2{display:flex;}
+.part1,.part2 {background-color: white; border-radius: 2em; margin: 30px;}
+.address{float: left; margin: 30px;}
+.linkedin,.email {float: left; margin: 30px;}
+.iframe{flex: 1; margin: 30px; order:2; }
+.form{flex: 1; margin: 100px; order: 1;}
+.img {
+    max-width: 100%;
+}
+.part2 { flex-wrap: wrap;}
+@media only screen and  (max-width: 768px) {
+    a { max-width: 100%;}
+    a { display: block; margin: 1px;}
+    
+}
