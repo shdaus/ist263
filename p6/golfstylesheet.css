@@ -14,3 +14,4 @@ p {line-height: 1.5em; font-size: 1.1em;}
 .logo{max-width: 100%; float: left; width: 50%;}
 .about, .info {margin-left: 100px; margin-right: 100px;}
 a {color: #0e6626;}
+.active {text-decoration: underline;}
