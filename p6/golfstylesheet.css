@@ -18,6 +18,5 @@ a {color: #0e6626;}
 hr {color: #0e6626;}
 .vo {float: right;}
 .logo {margin-left: 20px; margin-right: 55px;}
-
-
-
+.train{max-width: 100%; margin-right: auto; margin-left: auto; display: block; width: 85%;}
+.text {display: flex;}
