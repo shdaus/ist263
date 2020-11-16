@@ -7,16 +7,20 @@ nav a:active{color: black;}
 .clear {clear: both;}
 .homeimg {max-width: 100%; width: 90%; margin-right: auto; margin-left: auto; display: block;}
 .flex1 {display: flex; flex-wrap: wrap;}
-.contact {margin-left:100px; order:1; margin-top: 90px;}
 .map {margin: 20px; order:2; border-radius: 10px; max-width: 100%; margin-right: 100px;}
+.contact {margin-left:100px; order:1; margin-top: 50px; margin-right: 100px;}
+.map { order:2; border-radius: 10px; max-width: 100%; margin-right: 100px; margin-left: 100px; margin-top: 20px; margin-bottom: 20px;}
 footer {background-color: #0e6626; color: #f5f5f5; padding: 15px; margin-left: -10px; margin-right: -10px; text-align: center;}
 p {line-height: 1.5em; font-size: 1.1em;}
 .logo{max-width: 100%; float: left; width: 50%;}
-.about, .info, .officials, .gov, .text {margin-left: 100px; margin-right: 100px;}
+.about, .info, .officials, .gov, .text1, .text2 {margin-left: 100px; margin-right: 100px;}
 a {color: #0e6626;}
 .active {text-decoration: underline; font-weight: 600;}
 hr {color: #0e6626;}
 .vo {float: right;}
 .logo {margin-left: 20px; margin-right: 55px;}
 .train{max-width: 100%; margin-right: auto; margin-left: auto; display: block; width: 85%;}
-.text {display: flex;}
+@media only screen and  (max-width: 768px) {
+    nav a { max-width: 100%;}
+    nav a { display: block; margin: 1px;}
+}
