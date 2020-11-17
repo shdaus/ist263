@@ -22,8 +22,9 @@ hr {color: #0e6626;}
 @media only screen and  (max-width: 768px) {
     nav a { max-width: 100%;}
     nav a { display: block; margin: 1px;}
-        .contact {margin-left:50px; order:1; margin-top: 25px; margin-right: 50px;}
-        .map { order:2; border-radius: 10px; max-width: 100%; margin-right: 50px; margin-left: 50px; margin-top: 10px; margin-bottom: 10px;}
-        .about, .info, .officials, .gov, .text1, .text2 {margin-left: 50px; margin-right: 50px;}
+        .contact {margin-left:25px; order:1; margin-top: 12.5px; margin-right: 25px;}
+        .map { order:2; border-radius: 10px; max-width: 100%; margin-right: 25px; margin-left: 25px; margin-top: 5px; margin-bottom: 5px;}
+        .about, .info, .officials, .gov, .text1, .text2 {margin-left: 25px; margin-right: 25px;}
         .logo{max-width: 100%; width: 50%; margin: auto}
     }
+.title {text-decoration: none;}
