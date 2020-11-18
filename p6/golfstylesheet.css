@@ -26,6 +26,6 @@ hr {color: #0e6626;}
         .map { order:2; border-radius: 10px; max-width: 100%; margin-right: 25px; margin-left: 25px; margin-top: 5px; margin-bottom: 5px;}
         .about, .info, .officials, .gov, .text1, .text2 {margin-left: 25px; margin-right: 25px;}
         .logo {max-width: 100%; width: 50%; display: block; margin-left: auto; margin-right: auto;}
-        .title {text-decoration: none;
+        .title {text-decoration: none;}
     }
 .title {text-decoration: none;}
