@@ -8,13 +8,13 @@ nav a:active{color: black;}
 .homeimg {max-width: 100%; width: 90%; margin-right: auto; margin-left: auto; display: block;}
 .flex1 {display: flex; flex-wrap: wrap;}
 .contact {margin-left:100px; order:1; margin-top: 50px; margin-right: 100px;}
-.map { order:2; border-radius: 10px; max-width: 100%; margin-right: 100px; margin-left: 100px; margin-top: 20px; margin-bottom: 20px;}
+.map { order:2; border-radius: 10px; max-width: 100%; margin-right: auto; margin-left: auto; margin-top: 20px; margin-bottom: 20px;}
 footer {background-color: #0e6626; color: #f5f5f5; padding: 15px; margin-left: -10px; margin-right: -10px; text-align: center;}
 p {line-height: 1.5em; font-size: 1.1em;}
 .logo{max-width: 100%; float: left; width: 50%;}
 .about, .info, .officials, .gov, .text1, .text2 {margin-left: 100px; margin-right: 100px;}
 a {color: #0e6626;}
-.active {text-decoration: underline; font-weight: 600;}
+.active {font-weight: 600; font-size: 1.1em;}
 hr {color: #0e6626;}
 .vo {float: right;}
 .logo {margin-left: 20px; margin-right: 55px;}
@@ -29,3 +29,5 @@ hr {color: #0e6626;}
         .title {text-decoration: none;}
     }
 .title {text-decoration: none;}
+h1, nav {margin-left: 15px;}
+h2 {font-size: 1.5em;}

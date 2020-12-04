@@ -1,0 +1,33 @@
+body{background-color: #f5f5f5; font-family: 'Roboto', sans-serif;}
+h1,h2,h3,nav a {color: #0e6626; font-family: 'Cinzel', serif; font-weight: normal;}
+nav a {text-decoration: none; margin-left: 10px; margin-right: 10px;}
+nav a:hover {color: black;}
+nav a:active{color: black;}
+.welcome{text-align: center;}
+.clear {clear: both;}
+.homeimg {max-width: 100%; width: 90%; margin-right: auto; margin-left: auto; display: block;}
+.flex1 {display: flex; flex-wrap: wrap;}
+.contact {margin-left:100px; order:1; margin-top: 50px; margin-right: 100px;}
+.map { order:2; border-radius: 10px; max-width: 100%; margin-right: auto; margin-left: auto; margin-top: 20px; margin-bottom: 20px;}
+footer {background-color: #0e6626; color: #f5f5f5; padding: 15px; margin-left: -10px; margin-right: -10px; text-align: center;}
+p {line-height: 1.5em; font-size: 1.1em;}
+.logo{max-width: 100%; float: left; width: 50%;}
+.about, .info, .officials, .gov, .text1, .text2 {margin-left: 100px; margin-right: 100px;}
+a {color: #0e6626;}
+.active {font-weight: 600; font-size: 1.1em;}
+hr {color: #0e6626;}
+.vo {float: right;}
+.logo {margin-left: 20px; margin-right: 55px;}
+.train{max-width: 100%; margin-right: auto; margin-left: auto; display: block; width: 85%;}
+@media only screen and  (max-width: 768px) {
+    nav a { max-width: 100%;}
+    nav a { display: block; margin: 1px;}
+        .contact {margin-left:25px; order:1; margin-top: 12.5px; margin-right: 25px;}
+        .map { order:2; border-radius: 10px; max-width: 100%; margin-right: 25px; margin-left: 25px; margin-top: 5px; margin-bottom: 5px;}
+        .about, .info, .officials, .gov, .text1, .text2 {margin-left: 25px; margin-right: 25px;}
+        .logo {max-width: 100%; width: 50%; display: block; margin-left: auto; margin-right: auto;}
+        .title {text-decoration: none;}
+    }
+.title {text-decoration: none;}
+h1, nav {margin-left: 15px;}
+h2 {font-size: 1.5em;}
